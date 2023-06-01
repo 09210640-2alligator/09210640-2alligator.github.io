@@ -8,17 +8,29 @@ body {
     font-family: 'Noto Serif HK', serif;
     background-color: #eae4e4;
 }
+.bg-white{
+    background-color: #ffffff;
+}
+/* .bg{
+    width: 1300px;
+    height: 700px;
+    display: block;
+    background: url(bg.png) center / cover;
+    background-size: cover;
+} */
 .title {
     font-size: 50px;
     color: #e28a1f;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 1ch;
 }
 .cover {
+
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
-    background: #ffffff url(images/bg.png) fixed top / cover
+    background: #ffffff url(bg.png) fixed top / cover;
 }
 
 .cover h1 {
@@ -28,15 +40,19 @@ body {
     margin-bottom: 20px;
 }
 
+.m-3{
+    margin: 3rem 0 3rem 0;
+}
+
+
 .card {
-    width: 300px;
-    height: px;
     margin: 20px;
     background: #f1eeee;;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     text-align:center;
-    position: relative;
+    /* position: relative; */
     transition: all 0.3s ease;
+    display: block;
 }
 
 .card:hover {
@@ -48,7 +64,7 @@ body {
 
 .card img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     opacity: 0.8;
     transition: all 0.3s ease;
